@@ -1,0 +1,127 @@
+
+.card-body{
+    background-color: #fc9;
+    border-bottom: 2px solid #ff0018;
+}
+.card_heading{
+    font-size: 22px;
+    color: #00094d;
+    text-shadow: 1px 1px 2px #fff;
+    font-weight: bold;
+}
+.card-title{
+    font-size: 22px;
+    line-height: 1;
+    background: linear-gradient(#4500bf,#670009);
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.card-time{
+    font-size: 15px;
+ color:#000;
+}
+
+.pnl-btn{
+    right: 18px;
+    left: auto;
+}
+.button:hover{
+cursor: pointer;
+}
+.head{
+    padding: 5px 10px;
+    text-shadow: 1px 1px 2px #000;
+    display: block;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #ff00a2;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: .75rem;
+    transform-style: preserve-3d;
+    color: #fff8f8  !important;
+    padding: 5px 10px;
+}
+.value_section{
+    margin: 10px;
+    clear: #000;
+    text-align: center;
+    margin-top: -2px;
+    display: block;
+    font-size: 20px;
+    outline: 4px #fff;
+    outline-offset: -9px;
+    border: 2px solid #ff182c !important ;
+    border-style: outset;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%);
+}
+.value{
+    padding: 3px;
+    border-bottom: 1px solid #ff0018;
+    background: #fc9;
+    position: relative;
+}
+.value h4{
+    font-size: 22px;
+    color: #00094d;
+    text-shadow: 1px 1px 2px #fff;
+    font-weight: bold;
+    font-family: Helvetica,sans-serif;
+    font-style: italic;
+    margin-bottom: 0px !important;
+}
+.value span{
+    margin: 0;
+    font-size: 22px;
+    line-height: 1;
+    background: -webkit-linear-gradient(#4500bf,#670009);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+padding: 5px 5px;
+font-weight: 700;
+font-family: Helvetica,sans-serif;
+    font-style: italic;
+}
+.value p{
+    font-size: 15px;
+    padding: 2px 0;
+    margin-bottom: 0;
+    color: #000;
+    text-shadow: 1px 1px 2px #ffd9d9;
+    font-weight: 700;
+font-family: Helvetica,sans-serif;
+    font-style: italic;
+}
+.jodi{
+    right: auto;
+    left: 18px;
+}
+.panel{
+    left: auto;
+    right: 18px;
+}
+.button{
+    position: absolute;
+    color: #fff;
+    transform: translateY(-158%);
+    padding: 5px 7px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin: 0 0 0 ;
+    display: block;
+    transition: all .3s;
+    text-shadow: 1px 1px 2px #222;
+    margin-top: -6px;
+    border: 1px solid #e6e6e6;
+    background: #522f92;
+    font-weight: 700;
+    font-family: Helvetica,sans-serif;
+    font-style: italic;
+
+}

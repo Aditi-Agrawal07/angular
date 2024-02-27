@@ -1,0 +1,16 @@
+<h4 class="head">
+  WORLD ME SABSE BEST FAST  MARKET RESULT
+</h4>
+<div class="value_section">
+@for(data of products; track products._id){
+<div class="value">
+  <h4>{{data.name}}</h4>
+  <span>{{data.first_number | number:'first'}}-{{data.second_number | number:'second'}}-{{data.third_number | number:'third'}}</span>
+<p>{{data.open_time|date:'shortTime'}} &nbsp; {{data.close_time|date:'shortTime'}}</p>
+<a href="" class="jodi button">Jodi</a>
+<a href="" class="panel button">Panel</a>
+</div>
+
+
+}
+</div>

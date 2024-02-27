@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background: #fc9;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --orange: #ff7800;
+    --background: #f3f3f3;
+    --green: #76a713;
+    --dark-green: #227200;
+    --primary:#fff;
+    --secondary:#000;
+    --grey: rgba(118, 167, 19, 0.05);
+    --light-red: rgba(255, 120, 0, 0.07);
+    --light-blue: rgba(34, 114, 0, 0.07);
+    --red-background: rgba(255, 120, 0, 0.07);
+    --greenish-background:rgba(34, 114, 0, 0.07);
+
+
+    --style-font-family: "Shadows Into Light"
+}
+.section_title{
+    font-family:var(--style-font-family);
+    color: var(--orange);
+}
+.section_heading{
+    font-size: 4rem ;
+    z-index: 1;
+position: relative;
+margin-bottom: 20px;
+}
+.swiper-pagination-bullet{
+    background: var(--orange) !important;
+   }
