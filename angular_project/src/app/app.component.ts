@@ -13,10 +13,7 @@ import { ApicallingService } from './apicalling.service';
 })
 export class AppComponent {
   title = 'angular_project';
-  constructor(private ApiCalling: ApicallingService){}
+ 
 
-  downloadApk(): void {
-    const fileId = '1lSNtBZHHHrUMpIvPs8odIwugwE3hmBN_'; // Replace with your actual file ID
-    this.ApiCalling.downloadFile(fileId);
-  }
+ 
 }

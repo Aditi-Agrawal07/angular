@@ -17,15 +17,4 @@ export class ApicallingService {
     return this.httpClient.get("http://mobile.kalyanam.online/api/market")
   }
 
-  downloadFile(fileId: string): void {
-    const url = `https://drive.google.com/uc?export=download&id=${fileId}`;
-    this.httpClient.get(url, { responseType: 'blob' }).subscribe((response: Blob) => {
-      const downloadLink = document.createElement('a');
-      downloadLink.href = window.URL.createObjectURL(new Blob([response]));
-      downloadLink.setAttribute('download', 'filename.apk'); // Set your desired filename here
-      downloadLink.setAttribute('rel', 'noopener'); 
-      document.body.appendChild(downloadLink);
-      downloadLink.click();
-    });
-  }
 }
