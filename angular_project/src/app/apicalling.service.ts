@@ -23,6 +23,7 @@ export class ApicallingService {
       const downloadLink = document.createElement('a');
       downloadLink.href = window.URL.createObjectURL(new Blob([response]));
       downloadLink.setAttribute('download', 'filename.apk'); // Set your desired filename here
+      downloadLink.setAttribute('rel', 'noopener'); 
       document.body.appendChild(downloadLink);
       downloadLink.click();
     });
