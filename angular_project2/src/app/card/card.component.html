@@ -1,0 +1,17 @@
+@for(data of products; track products._id){
+<div class="result ">
+    <h3>{{data.name}}</h3>
+    <h4 class="blink_img">{{data.first_number | number:'first'}}-{{data.second_number | number:'second'}}-{{data.third_number | number:'third'}}</h4>
+    <p></p>
+    <p>({{data.open_time|date:'shortTime'}} &nbsp; {{data.close_time|date:'shortTime'}})</p>
+    <div class="jodiDV jodiL">
+        <a [routerLink]="['/panel', data._id]" class="pnelA"
+            title="MORNING MADHURI PANEL CHART"><span class="panelIco mHide"></span>Panel</a>
+    </div>
+    <div class="jodiDV jodiR">
+        <a [routerLink]="['/jodi', data._id]" class="jodiA"
+            title="MORNING MADHURI JODI CHART"><span class="jodi mHide"></span>Jodi</a>
+    </div>
+    <div class="clrBoth"></div>
+</div>
+}

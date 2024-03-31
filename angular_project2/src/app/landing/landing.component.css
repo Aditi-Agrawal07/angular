@@ -1,0 +1,98 @@
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto 0;
+    padding: 0 0 0
+}
+
+.satta-matka {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ba0001;
+    border-radius: 20px;
+    box-shadow: 2px 1px 11px #888;
+    margin-top: 15px;
+    padding: 20px
+}
+
+.wrap>.container {
+    padding: 0 15px 20px
+}
+.foot-top p.questn {
+    text-align: left !important;
+    font-weight: 700;
+    padding-top: 6px
+}
+
+.foot-top p.ans {
+    text-align: left !important
+}
+
+.variLang {
+    text-align: left !important;
+    line-height: 30px;
+    font-weight: 700
+}
+.foot-top{
+    padding: 5px 15px;
+}
+
+
+a.AppStick {
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    z-index: 1
+}
+p.downloadNow {
+    font-size: 18px;
+    color: #fff;
+    background-color: #030556;
+    padding: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #003296, #003296) !important;
+    float: left
+}
+
+
+.all-head {
+    margin-left: 0;
+    margin-right: 0;
+    background-image: linear-gradient(to bottom, #0732a1, #041f65);
+    margin: 15px 0 5px
+}
+
+.all-head h1,
+.all-head h2 {
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 9px 0
+}
+
+.headboxtop {
+    margin-top: 30px !important
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .satta-matka {
+        padding: 20px 0
+    }
+
+}
+

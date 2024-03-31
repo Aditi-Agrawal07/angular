@@ -67,7 +67,14 @@ cursor: pointer;
     background: #fc9;
     position: relative;
 }
-.value h4{
+.active{
+    padding: 3px;
+    border-bottom: 1px solid #ff0018;
+    background: yellow;
+    position: relative;
+}
+.value h4,
+.active h4{
     font-size: 22px;
     color: #00094d;
     text-shadow: 1px 1px 2px #fff;
@@ -76,7 +83,8 @@ cursor: pointer;
     font-style: italic;
     margin-bottom: 0px !important;
 }
-.value span{
+.value span,
+.active span{
     margin: 0;
     font-size: 22px;
     line-height: 1;
@@ -88,7 +96,8 @@ font-weight: 700;
 font-family: Helvetica,sans-serif;
     font-style: italic;
 }
-.value p{
+.value p,
+.active p{
     font-size: 15px;
     padding: 2px 0;
     margin-bottom: 0;

@@ -1,0 +1,72 @@
+.panel.panel-info {
+    border: 1px solid #3f51b5;
+    width: 70%;
+    margin: 0 auto 0
+ }
+
+ .panel-heading h1 {
+    margin: 0;
+    padding: 5px
+ }
+
+table {
+    border-collapse: collapse
+ }
+
+ table,
+ th{
+    border: 1px solid #03a9f4a8
+ }
+td:nth-child(3n){
+   border-right: 1px solid #03a9f4a8
+}
+ thead {
+    background-color: #ffc107;
+    text-shadow: 1px 1px 2px #9a7400ab
+ }
+
+ tbody td {
+    padding: 5px 0;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    border-bottom: 1px solid #03a9f4a8;
+   }
+ .second_child{
+   font-size: 23px !important;
+   font-weight: 700 !important;
+ }
+ @media only screen and (max-width:770px) {
+    .panel.panel-info {
+       width: 95%
+    }
+ }
+
+ @media only screen and (max-width:500px) {
+    .panel.panel-info {
+       width: 99%
+    }
+
+  
+
+    th {
+       font-size: 11px
+    }
+ }
+
+ @media only screen and (max-width:770px) {
+    .panel.panel-info {
+       width: 99%
+    }
+ }
+
+ @media only screen and (max-width:500px) {
+
+
+    .chart-list {
+       width: 95%;
+    }
+ }
+
+
+ 

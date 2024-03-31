@@ -14,7 +14,11 @@ export class ApicallingService {
   }
 
   getProducts(): Observable<any> {
-    return this.httpClient.get("http://mobile.kalyanam.online/api/market")
+    return this.httpClient.get("https://mobile.kalyanam.online/api/market")
+  }
+
+  getResults(marketId:string):Observable<any>{
+    return this.httpClient.get(`https://mobile.kalyanam.online/api/public/result/market-result-history/${marketId}`)
   }
 
 }

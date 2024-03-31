@@ -1,0 +1,206 @@
+.panelHead {
+    font-size: 30px;
+    padding: 8px 16px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 75px;
+}
+.dabbottom {
+    background-color: #003296;
+    color: #fff;
+    padding: 12px 14px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 0
+}
+.chartDescrip {
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+}
+.chartDescrip a {
+    color: #23527c;
+    text-decoration: none;
+}
+.clrBoth {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    width: 100%;
+}
+.mainRtnDV {
+    width: 100%;
+}
+.mainRtnDV table th {
+    background-color: #f5c549;
+    border: 1px solid #000;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+.mainRtnDV table td {
+    font-size: 16px;
+    padding: 0;
+    vertical-align: text-bottom;
+}
+.mainRtnDV table td.chartCol4 {
+    border: 1px solid #d4d3d3;
+}
+.mainRtnDV .jodiTable {
+    margin: auto;
+    width: 60%;
+}
+.mainRtnDV .jodiTable th {
+    background-color: #d63031;
+    color: #fff;
+    text-align: center;
+    padding: 10px 2px;
+    font-size: 30px;
+}
+.mainRtnDV .jodiTable td {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px 2px;
+    font-size: 30px;
+}
+.mainRtnDV .jodiTable > tbody > tr > td,
+.mainRtnDV .jodiTable > tbody > tr > th {
+    border: 1px solid #000;
+}
+.mainRtnDV table.balajiTable {
+    background-color: #fff;
+    width: 100%;
+}
+.mainRtnDV table.balajiTable tr td {
+    width: 90px;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+}
+.mainRtnDV .balaji .date {
+    background-color: #ef4c6a;
+    font-size: large;
+    color: #000;
+    border: 0;
+    font-weight: 400;
+    font-style: normal;
+}
+.mainRtnDV table.balajiTable th {
+    font-size: 30px;
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    padding: 8px 2px;
+}
+.mainRtnDV table.balajiTable tr td {
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 2px;
+}
+.mainRtnDV table.kalyanWhite tr th {
+    padding: 8px 2px;
+    text-align: center;
+    border: 1px solid #000;
+    font-size: 18px;
+    color: #000;
+    background: #fff;
+}
+.mainRtnDV table.kalyanWhite tr td {
+    padding: 8px 0;
+    text-align: center;
+    border: 1px solid #000;
+    font-size: 18px;
+    color: #000;
+}
+.mainRtnDV .optionSec td {
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid #000;
+}
+.mainRtnDV table .middleH {
+    vertical-align: middle;
+    font-size: 22px;
+}
+@media only screen and (max-width: 960px) {
+    .mainRtnDV .jodiTable {
+        width: 100%;
+    }
+    .mainRtnDV .jodiTable th {
+        font-size: 20px;
+    }
+    .mainRtnDV .jodiTable td {
+        font-size: 16px;
+    }
+    .mainRtnDV table.balajiTable tr td {
+        font-size: 16px;
+    }
+    .mainRtnDV table.balajiTable th {
+        font-size: 16px;
+    }
+    .mainRtnDV table.kalyanWhite tr th {
+        font-size: 12px;
+    }
+    .mainRtnDV table.kalyanWhite tr td {
+        font-size: 12px;
+    }
+    .mainRtnDV table .middleH {
+        font-size: 12px;
+    }
+    .mainRtnDV table.optionSec th {
+        font-size: 14px;
+    }
+    .mainRtnDV table.optionSec td {
+        padding: 0;
+    }
+    .mainRtnDV table td.chartCol4 {
+        vertical-align: middle;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .mainRtnDV table.balajiTable tr td {
+        font-size: 12px;
+    }
+    .mainRtnDV table.balajiTable th {
+        font-size: 12px;
+    }
+    .mainRtnDV table.kalyanWhite tr th {
+        font-size: 15px;
+    }
+    .mainRtnDV table.kalyanWhite tr td {
+        font-size: 15px;
+    }
+    .wrap {
+        padding: 1px;
+    }
+    .mainRtnDV table.kalyanWhite tr th {
+        padding: 8px 0;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .mainRtnDV table th {
+        padding: 8px 1px;
+    }
+    .mainRtnDV table td {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .mainRtnDV table.kalyanWhite tr th {
+        font-size: 15px;
+    }
+    .mainRtnDV table.kalyanWhite tr td {
+        font-size: 15px;
+    }
+}
+table{
+    border-collapse: collapse;
+}

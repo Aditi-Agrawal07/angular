@@ -1,0 +1,23 @@
+.head1 {
+    background-color: mintcream;
+    color: #434142;
+    border-width: 3px;
+    border-color: magenta;
+    border-style: inset;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 3px;
+    font-size: 14px;
+    text-align: center;
+}
+h1 {
+    margin: 2px;
+    font-size: 22px;
+    color: #C0392B;
+    padding-bottom: 2px
+}
+h2 {
+    margin: 2px;
+    padding: 2px;
+    color: blue
+}

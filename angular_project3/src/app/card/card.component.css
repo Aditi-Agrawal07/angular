@@ -1,0 +1,43 @@
+.news-body {
+    background-color: white;
+    color: black;
+    border: solid 3px #F39C12;
+    text-shadow: 1px 1px 0 #969696, 1px 5px 5px #aba8a8;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px;
+    border-radius: 3px;
+}
+.fix {
+    border-bottom: 1.5px solid silver;
+    margin-top: 2px;
+    padding: 4px;
+    margin-bottom: 2px;
+}
+.jodichartleft {
+    float: left;
+    width: 20%;
+    text-align: left;
+    margin-top: -25px;
+}
+
+.panelchartright {
+    float: right;
+    width: 20%;
+    text-align: right;
+    margin-top: -25px
+}
+
+.jodichartleft a,
+.panelchartright a {
+    width: auto;
+    background-color: red;
+    color: black;
+    padding: 2px 2px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+}

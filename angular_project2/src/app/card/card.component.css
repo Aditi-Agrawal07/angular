@@ -1,0 +1,109 @@
+.result p.liveHead {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: -5px
+}
+p{
+    margin: 0;
+}
+.result {
+    border-bottom: 1px solid #2e7d32 !important;
+    padding-bottom: 15px;
+    padding-top: 15px
+}
+
+.satta-matka .result h3 {
+    text-align: center;
+    color: #000;
+    margin: 0;
+    font-size: 23px;
+    font-family: roboto;
+    padding: 0
+}
+
+.satta-matka .result h4 {
+    text-align: center;
+    color: #ba0001;
+    font-weight: 600;
+    margin: 4px 0;
+    font-size: 26px;
+    font-family: roboto
+}
+.resultBg {
+    border: 2px solid #041f65;
+    text-align: center;
+    margin: 5px 0;
+    background-color: #fff
+}
+.resultBg p {
+    line-height: 28px;
+    font-size: 16px
+}
+
+.resultBg .numP {
+    font-weight: 700;
+    font-size: 22px
+}
+ .result p {
+    color: #000;
+    font-size: 15px;
+    text-align: center
+}
+ .result h3 {
+    text-align: center;
+    color: #000;
+    margin: 0;
+    font-size: 23px;
+    font-family: roboto;
+    padding: 0
+}
+.result h4 {
+    text-align: center;
+    color: #ba0001;
+    font-weight: 600;
+    margin: 4px 0;
+    font-size: 26px;
+    font-family: roboto
+}
+
+.jodiL {
+    float: left;
+    margin-top: -55px;
+    margin-left: 5px
+}
+
+.jodiR {
+    float: right;
+    margin-top: -55px;
+    margin-right: 5px
+}
+
+.pnelA {
+    background-color: #d20a0a;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 8px;
+    text-decoration: none
+}
+
+.jodiA {
+    background-color: #d20a0a;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 8px;
+    text-decoration: none
+}
+
+
+@media (max-width:767px) {
+    .result {
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+}

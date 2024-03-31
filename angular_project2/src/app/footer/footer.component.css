@@ -1,0 +1,44 @@
+.footer {
+    background: #ba0001;
+    position: relative;
+    left: 0;
+    right:0;
+    bottom: 0;
+}
+@media (min-width:1200px) {
+    .container {
+        
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+.col-md-12{
+    margin: 10px;
+}
+
+.FoolterLink {
+    color: #fff;
+    font-size: 26px;
+    text-align: center
+}
+
+a.LinksA {
+    color: #fff;
+    font-size: 18px
+}
+
+.FoolterLink a {
+    line-height: 1.8em
+}
+
+p.disclaimer {
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    padding: 5px;
+    text-align: justify;
+    letter-spacing: 0
+}
+.container {
+    padding: 0 15px 20px
+}

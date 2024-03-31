@@ -1,0 +1,120 @@
+
+.chat7 {
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    font-style: italic;
+    font-size: large;
+    border-width: 5px;
+    border-color: #893bff;
+    border-style: groove;
+    text-shadow: 1px 1px #ffd700;
+    padding-top: 10px;
+    padding-bottom: 10px
+  }
+  .td {
+    width: 50%;
+    color: white;
+    background-color: darkblue;
+    font-size: 22px;
+}
+/* Mobile */
+@media screen and (max-width: 320px){
+  table {
+    max-width: 110%;
+    min-width: 60%;
+    text-align: center;
+    border-collapse: separate;
+  }
+
+  th {
+    font-size: 7px;
+    padding: 3px 1px
+  }
+
+  td {
+    font-size: 15px;
+    padding: 3px 1px
+  }
+  
+}
+ /* Tablet */
+ @media screen and (max-width: 500px)
+ /* Tablet */
+   {
+   table {
+     max-width: 110%;
+     min-width: 60%;
+     text-align: center;
+     border-collapse: separate;
+   }
+
+   th {
+     font-size: 8px;
+     padding: 4px 1px
+   }
+
+   td {
+     font-size: 18px;
+     padding: 4px 1px
+   }
+ }
+ 
+ @media screen and (min-width: 500px)
+ /* Desktop */
+   {
+   table {
+     text-align: center;
+     border-collapse: separate;
+   }
+
+   th {
+     font-size: 12px;
+     padding: 5px 3px
+   }
+
+   td {
+     font-size: x-large;
+     padding: 5px 3px
+   }
+ }
+ .yom {
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: 1px 1px #8BC34A;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.D1 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 23px;
+  letter-spacing: 1pt;
+  font-family: Georgia, serif;
+}
+
+.btn-refresh {
+  padding: .25rem .75rem;
+  color: #fff;
+  border-radius: 1rem;
+  margin-top: .25rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+}
+.bg-1 {
+  background: rgb(195, 138, 34);
+  background: linear-gradient(0deg, rgba(195, 138, 34, 0.9898809865743172) 0%, rgba(253, 246, 45, 0.998284347918855) 100%);
+
+
+
+  border: 1px solid #F7DC6F;
+  color: #000;
+  box-shadow: 0 0 15px #000;
+}
+
