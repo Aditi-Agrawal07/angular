@@ -26,6 +26,7 @@
             <table id="main-table" class="mumbaiMainTable" cellspacing="0">
               <thead>
                 <tr>
+                  <td>रवि</td>
                  
                   <td>सोम</td>
 
@@ -39,15 +40,13 @@
 
                   <td>शनि</td>
 
-                  <td>रवि</td>
-
                 </tr>
               </thead>
               <tbody>
-
+@for(item of result; track item){
                 <tr>
-                  @for(data of result; track data){
-                  @if(data | isEmpty){
+                  @for(data of item; track data){
+                  @if(!data){
                     <td class="Sun1">
                       <table cellspacing="0" cellpadding="0" class="day_res inner-table">
                         <tbody>
@@ -73,54 +72,31 @@
 
                   }@else{
 
-                  @if (!data || !data[0]) {
+                 
+                 
                     <td class="Sun1">
                       <table cellspacing="0" cellpadding="0" class="day_res inner-table">
                         <tbody>
   
                           <tr>
-                            <td>*</td>
+                            <td>{{ data?.first_number ? (data.first_number + '')[0] : '*' }}</td>
                             <td class="midbox"></td>
-                            <td>*</td>
+                            <td>{{ data?.third_number ? (data.third_number + '')[0] : '*' }}</td>
                           </tr>
                           <tr>
-                            <td>*</td>
-                            <td class="midbox">*</td>
-                            <td>*</td>
+                            <td>{{ data?.first_number ? (data.first_number + '')[1] : '*' }}</td>
+                            <td class="midbox">{{ data?.second_number ? data.second_number  : '*' }}</td>
+                            <td>{{ data?.third_number ? (data.third_number + '')[1] : '*' }}</td>
                           </tr>
   
                           <tr>
-                            <td>*</td>
+                            <td>{{ data?.first_number ? (data.first_number + '')[2] : '*' }}</td>
                             <td class="midbox"></td>
-                            <td>*</td>
+                            <td>{{ data?.third_number ? (data.third_number + '')[2] : '*' }}</td>
                           </tr>
                         </tbody>
                       </table>
-                  }
-                  @else{
-                    <td class="Sun1">
-                      <table cellspacing="0" cellpadding="0" class="day_res inner-table">
-                        <tbody>
-  
-                          <tr>
-                            <td>{{ data?.[0]?.first_number ? (data[0].first_number + '')[0] : '*' }}</td>
-                            <td class="midbox"></td>
-                            <td>{{ data?.[0]?.third_number ? (data[0].third_number + '')[0] : '*' }}</td>
-                          </tr>
-                          <tr>
-                            <td>{{ data?.[0]?.first_number ? (data[0].first_number + '')[1] : '*' }}</td>
-                            <td class="midbox">{{ data?.[0]?.second_number ? data[0].second_number  : '*' }}</td>
-                            <td>{{ data?.[0]?.third_number ? (data[0].third_number + '')[1] : '*' }}</td>
-                          </tr>
-  
-                          <tr>
-                            <td>{{ data?.[0]?.first_number ? (data[0].first_number + '')[2] : '*' }}</td>
-                            <td class="midbox"></td>
-                            <td>{{ data?.[0]?.third_number ? (data[0].third_number + '')[2] : '*' }}</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                  }
+                 
 
 
                   }
@@ -129,6 +105,7 @@
 
 
                 </tr>
+              }
              <!-- <tr>
                   <td class="Sun1">
                     <table cellspacing="0" cellpadding="0" class="day_res inner-table">

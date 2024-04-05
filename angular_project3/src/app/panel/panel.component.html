@@ -1,1 +1,41 @@
-<p>panel works!</p>
+<div
+style="background-color: #0c0361; color: white; font-size: small; border-width: 3px; border-style:solid;border-color: red; font-weight: bold; margin-top: 3px; margin-bottom: 3px; font-style: italic; padding-top: 3px; padding-bottom: 3px; padding-left: 3px; padding-right: 3px">
+<span style="background-color: #052d24;"><a>
+    <font color="white">
+      <h1><strong>{{selectedProduct.name}} PANEL CHART</strong></h1>
+    </font>
+  </a></span></div>
+
+  <div class="S1" style="background-color: yellow">
+    <div class="yom" style="color: blue;">{{selectedProduct.name}} </div>
+    <span class="D1">{{selectedProduct.first_number | number:'first'}}-{{selectedProduct.second_number | number:'second'}}-{{selectedProduct.third_number | number:'third'}}</span><br>
+    <div class="btn-refresh bg-1" onclick="window.location.reload()">Refresh Result</div>
+  </div>
+ <div style="display: flex; justify-content: center;">
+  <table class="pchart">
+    <tbody>
+    @for(item of result;track item){
+      <tr>
+        @for(data of item; track data){
+          @if(!data){
+            <th>*<br>*<br>*</th>
+            <td class="second_child">*</td>
+            <th>*<br>*<br>*</th>
+           
+         }@else{
+         
+     
+             
+               <th>{{ data?.first_number ? (data?.first_number + '')[0] : '*' }}<br>{{ data?.first_number ? (data.first_number + '')[1] : '*' }}<br>{{ data?.first_number ? (data.first_number + '')[2] : '*' }}</th>
+               <td >{{ data?.second_number ? data?.second_number  : '*' }}</td>
+               <th>{{ data?.third_number ? (data?.third_number + '')[0] : '*' }}<br>{{ data?.third_number ? (data.third_number + '')[1] : '*' }}<br>{{ data?.third_number ? (data.third_number + '')[2] : '*' }}</th>
+             
+             
+        
+                  }   
+        }
+      </tr>
+    }
+    </tbody>
+  </table>
+ </div>

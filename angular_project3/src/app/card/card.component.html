@@ -4,7 +4,7 @@
             <span style="color:green;">{{data.name}}</span><br>
             <span style="color:black;">{{data.first_number | number:'first'}}-{{data.second_number | number:'second'}}-{{data.third_number | number:'third'}}</span> <br>
             <div class="jodichartleft"><a  [routerLink] = "['jodi', data._id]" style="color:white;">Jodi</a></div>
-            <div class="panelchartright"><a [routerLink] = "['jodi', data._id]" style="color:white;">Panel</a></div>
+            <div class="panelchartright"><a [routerLink] = "['panel', data._id]" style="color:white;">Panel</a></div>
             <span style="color:red; font-size: small;">({{data.open_time|date:'shortTime'}} &nbsp; {{data.close_time|date:'shortTime'}}) </span>
         </div>
 </div>
