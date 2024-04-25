@@ -22,7 +22,7 @@ export class CardComponent {
     this.getProduct()
   }
   getProduct() {
-    this.apiCalling.getProducts().subscribe((response: { data: any; })=>{
+    this.apiCalling.getProducts().subscribe((response)=>{
       this.products =  response.data
      
   

@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
 import { JodiComponent } from './jodi/jodi.component';
-import path from 'path';
 import { PanelComponent } from './panel/panel.component';
 
 export const routes: Routes = [
